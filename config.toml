@@ -1,0 +1,37 @@
+baseurl = "http://DrifterFun.github.io"
+publishDir = "docs"
+title = "Drifter  Fun"
+author = "YiFan Zhu"
+canonifyurls = true
+languagecode = "en"
+theme = "hugo-tanka"
+
+googleAnalytics = ""
+disqusShortname = ""
+disable_mathjax = false
+
+pygmentsstyle      = "vs"
+pygmentscodefences = true
+
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+
+[params]
+  sitename = "Drifter  Fun"
+
+[[menu.main]]
+    name = "首页"
+    url = "/"
+    weight = 1
+[[menu.main]]
+    name = "博客"
+    url = "/post/"
+    weight = 2
+[[menu.main]]
+    name = "Github"
+    url = "https://github.com/DrifterFun"
+    weight = 3
+[[menu.main]]
+    name = "关于"
+    url = "https://twitter.com/road2stat"
+    weight = 4
+
