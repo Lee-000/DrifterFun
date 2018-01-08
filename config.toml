@@ -20,11 +20,11 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [[menu.main]]
     name = "首页"
-    url = "/"
+    url = "http://www.drifter.fun"
     weight = 1
 [[menu.main]]
     name = "博客"
-    url = "/post/"
+    url = "http://www.drifter.fun/post"
     weight = 2
 [[menu.main]]
     name = "Github"
