@@ -3,29 +3,29 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://DrifterFun.github.io/post/%E4%BA%8C%E5%8D%81%E5%8F%88%E4%BA%8C%E5%B0%8F%E7%BA%AA/</loc>
+    <loc>http://www.drifter.fun/post/%E4%BA%8C%E5%8D%81%E5%8F%88%E4%BA%8C%E5%B0%8F%E7%BA%AA/</loc>
     <lastmod>2017-12-25T18:28:54+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://DrifterFun.github.io/categories/</loc>
+    <loc>http://www.drifter.fun/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://DrifterFun.github.io/</loc>
-    <lastmod>2017-12-25T18:28:54+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://DrifterFun.github.io/post/</loc>
+    <loc>http://www.drifter.fun/</loc>
     <lastmod>2017-12-25T18:28:54+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://DrifterFun.github.io/tags/</loc>
+    <loc>http://www.drifter.fun/post/</loc>
+    <lastmod>2017-12-25T18:28:54+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.drifter.fun/tags/</loc>
     <priority>0</priority>
   </url>
   
