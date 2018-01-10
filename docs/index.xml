@@ -6,10 +6,29 @@
     <description>Recent content on Drifter  Fun</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 25 Dec 2017 18:28:54 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 10 Jan 2018 09:05:54 +0800</lastBuildDate>
     
 	<atom:link href="http://www.drifter.fun/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>初号机装配计划</title>
+      <link>http://www.drifter.fun/post/%E5%88%9D%E5%8F%B7%E6%9C%BA%E8%A3%85%E9%85%8D%E8%AE%A1%E5%88%92/</link>
+      <pubDate>Wed, 10 Jan 2018 09:05:54 +0800</pubDate>
+      
+      <guid>http://www.drifter.fun/post/%E5%88%9D%E5%8F%B7%E6%9C%BA%E8%A3%85%E9%85%8D%E8%AE%A1%E5%88%92/</guid>
+      <description>&amp;emsp;&amp;emsp;得到了老师的首肯之后开始了我的工作伴侣装配计划。由于是第一次的电脑装配置，我无奈的向罪恶的卡吧大佬发起了场外求助。有道是：
+ 三千预算进卡吧,加钱加到一万八
+十核E7装上去,四路泰坦抱回家
+4K屏幕组三屏,万元水冷温度压
+固态硬盘装三块,硬盘内存使劲加
+键鼠必花几千块,耳机手柄八千八
+还有机箱六千块,红星炸弹啪啪啪
+最后发现没啥用,抱着神机刷贴吧。
+ &amp;emsp;&amp;emsp;通过卡吧大佬的指导，我的想象力已经被开发出来了，做出了600软妹币买一个风扇这种丧心病狂的事，为了SLI我直接2档起步搞了个1000W的全模组电源。我……堕落了，不再是曾经那个节约单纯的好孩子了。组装电脑时，每个人进来第一句话就是指着我那个大大的风扇问我那是啥，我只能咳嗽两声：说这是CPU散热器。显得自己不那么SB……
+&amp;emsp;&amp;emsp;我的初号机的组成部分如下：
+1. I7 8700K+华硕Z370-A 2. 技嘉1080Ti 小雕 3. 内存 16G x 2 4. 960 256G SSD 5. 海盗船RM1000X 6. 希捷硬盘 2T 7200转 7. 先马机箱 8. 猫头鹰D15S散热器  &amp;emsp;&amp;emsp;由于是第一次组装，还是问题挺大的。最开始我惊愕的知道主板是要接铜柱;CPU是要单独供电的；前面板USB是走跳线的……虽然说是不难，比不上本科做的“射频宽带放大器”，但是想要做好做漂亮还是不容易的。由于前期没有安排好走线之类的问题，中途我又重新取下主板什么什么的又走了一下线。由于我那个特别大的风扇提前怼上去了，导致我的CPU供电线很难插上，为了把供电线怼上去手被风扇怼了个口子，也算见红了。不过最后还好，最后完成了走线什么什么的一大堆事情。至此初号机的硬件装配完成（完成了点亮工作），下一步就是把自己的工作空间迁移到新电脑就好～</description>
+    </item>
     
     <item>
       <title>朱小帆二十又三小结（最后变成回忆录)</title>
