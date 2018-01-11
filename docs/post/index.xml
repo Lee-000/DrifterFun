@@ -6,10 +6,22 @@
     <description>Recent content in Posts on Drifter  Fun</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 10 Jan 2018 09:05:54 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 11 Jan 2018 13:50:55 +0800</lastBuildDate>
     
 	<atom:link href="http://www.drifter.fun/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>不存在什么岁月静好</title>
+      <link>http://www.drifter.fun/post/%E4%B8%8D%E5%AD%98%E5%9C%A8%E4%BB%80%E4%B9%88%E5%B2%81%E6%9C%88%E9%9D%99%E5%A5%BD/</link>
+      <pubDate>Thu, 11 Jan 2018 13:50:55 +0800</pubDate>
+      
+      <guid>http://www.drifter.fun/post/%E4%B8%8D%E5%AD%98%E5%9C%A8%E4%BB%80%E4%B9%88%E5%B2%81%E6%9C%88%E9%9D%99%E5%A5%BD/</guid>
+      <description>&amp;emsp;&amp;emsp;故事本来应该是这样：我拿着组好的初号机，顺滑的安装好Win10和Ubuntu，愉快的开始工作。故事的确是按照剧本进行了一半。Win10的确是顺滑的安装了，然而Ubuntu绝望的开始。为什么我说没有岁月静好，因为一切的丝般顺滑都是有人为你默默的承担着（或是对你的爱，或是对你包里钱的爱）。
+&amp;emsp;&amp;emsp;出现了什么坑比的事情呢？在安装Ubuntu时U盘镜像完全不能进入满屏的报错，反复在说：您的最强显卡1080Ti没有驱动哦～您的最强显卡1080Ti没有驱动哦～您的最强显卡1080Ti没有驱动哦～MLGB。然后就进入了一天的悲剧。
+&amp;emsp;&amp;emsp;最后说说解决方法吧，解决方法是在grub中加入语句（关键词：nomodeset）使系统在进入图形界面前一直使用BIOS，不去尝试启用GPU的驱动。然后在进入系统之后再去加载N卡。这样做的后果就是进入系统之后图像的分辨率会相当的低，明天再去设置一下grup初始化一下屏幕分辨率。
+&amp;emsp;&amp;emsp;Linux最大的谎言就是你可以如何如何优雅的使用电脑。要说优雅，一定是Win10，因为你知道：花钱了才有所谓的：岁月静好。</description>
+    </item>
     
     <item>
       <title>初号机装配计划</title>
