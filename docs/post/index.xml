@@ -6,10 +6,21 @@
     <description>Recent content in Posts on Drifter  Fun</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 11 Jan 2018 13:50:55 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 12 Jan 2018 15:45:39 +0800</lastBuildDate>
     
 	<atom:link href="http://www.drifter.fun/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>你是不是傻</title>
+      <link>http://www.drifter.fun/post/%E4%BD%A0%E6%98%AF%E4%B8%8D%E6%98%AF%E5%82%BB/</link>
+      <pubDate>Fri, 12 Jan 2018 15:45:39 +0800</pubDate>
+      
+      <guid>http://www.drifter.fun/post/%E4%BD%A0%E6%98%AF%E4%B8%8D%E6%98%AF%E5%82%BB/</guid>
+      <description>&amp;emsp;&amp;emsp;朱一帆你是不是傻，朱一帆你是不是傻，朱一帆你是不是傻。素质三联过后是屏幕后的我止不住的傻笑，哈哈哈哈哈哈，好歹解决了，龙心大悦。问题是这样的，自以为安装好了驱动的我发现运行UnrealEgine时失败，那就是说我的驱动是没有安装成功的。然后就进入了10多个小时的漫长悲剧。期间按照8个人的8种方法进行配置，前后重启达到数十次。骂了Linux达200次，问候Linus他母亲300多次，怀疑人生3次，考虑放弃读博3次。
+&amp;emsp;&amp;emsp;最后发现自己的配置方法完全没有问题。真正的问题是：HDMI线没有插显卡上，插主板上了!,对各位看官没有听错，我是傻逼，我把线插在主板上了。哈哈哈哈哈哈，虽然觉得自己很蠢，但是还是感觉问题解决了真好～Windows还是小碧池，Linux还是正宫，Linus还是好人。
+&amp;emsp;&amp;emsp;以上。</description>
+    </item>
     
     <item>
       <title>不存在什么岁月静好</title>
