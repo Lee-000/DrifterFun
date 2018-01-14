@@ -22,7 +22,7 @@ title = "Ubuntu16.04的N卡驱动安装"
 
 &emsp;&emsp;ubuntu有命令行模式和X桌面模式，显卡的驱动必须在命令行模式进行。键盘上按下```ctrl + alt + F1```即进入命令行模式。您可能需要输入您的账号和密码才能进入界面。
 
-&emsp;&emsp;禁用X桌面服务，命令行输入：```sudo service lightdm stop```。输入没有报错接好，不会有动画的。
+&emsp;&emsp;禁用X桌面服务，命令行输入：```sudo service lightdm stop```。输入没有报错就好，不会有动画的。
 
 **3.进行驱动安装的第三步：禁用nouveau驱动**
 

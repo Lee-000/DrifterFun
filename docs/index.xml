@@ -22,7 +22,7 @@
 1.进行驱动安装的第一步：确定您的显卡，以及其具体需要的驱动（可以是官方的.run文件版本号也可以是apt-get可以获得的版本号）。
 &amp;emsp;&amp;emsp;在这一步中，我选择了具有“超级牛力”的apt-get。于是我去了系统的“软件与更新”一栏查到了我显卡配套的apt-get驱动的版本号nvidia-384。（图中为驱动已经安装好，未安装时选项应该在下面）。 2.进行驱动安装的第二步：进入命令行模式且禁用X桌面服务
 &amp;emsp;&amp;emsp;ubuntu有命令行模式和X桌面模式，显卡的驱动必须在命令行模式进行。键盘上按下ctrl + alt + F1即进入命令行模式。您可能需要输入您的账号和密码才能进入界面。
-&amp;emsp;&amp;emsp;禁用X桌面服务，命令行输入：sudo service lightdm stop。输入没有报错接好，不会有动画的。
+&amp;emsp;&amp;emsp;禁用X桌面服务，命令行输入：sudo service lightdm stop。输入没有报错就好，不会有动画的。
 3.进行驱动安装的第三步：禁用nouveau驱动
 &amp;emsp;&amp;emsp;在安装新的驱动之前，需要对开源驱动进行屏蔽。（开源驱动是挺好，但是还是没有亲生父亲写的好呀）屏蔽的方法就是直接拉黑。首先打开黑名单：
 sudo vi /etc/modprobe.d/blacklist.conf  然后加入一下几条：
