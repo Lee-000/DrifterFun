@@ -13,4 +13,6 @@ xrandr //查看现在连接的显示器
 xrandr --output HDMI-0 --primary//设置连接HDMI-0的显示器为主显示器 
 xrandr --output DVI-D-0 --right-of HDMI-0 --auto //设置连接DVI-D-0的显示器在连接HDMI-0的显示器右边
 ```
-有关xrandr的更多命令可以Google（需科学上网，推荐Lantern）。
+有关xrandr的更多命令可以Google（需科学上网，推荐[Lantern](https://github.com/getlantern/forum)）。
+
+PS:如果你购买了Lantern专业版，请用我的邀请码：YGV8NWY 你我都可以获得额外的一个月使用期限。

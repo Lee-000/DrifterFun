@@ -6,7 +6,7 @@ if [ $# -eq 1 ]
   then msg="$1"
 fi
 
-
+rm -rf docs/
 # Build the project. 
 hugo # if using a theme, replace by `hugo -t <yourtheme>`
 # Push Hugo content 
