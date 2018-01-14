@@ -6,10 +6,20 @@
     <description>Recent content on Drifter  Fun</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 13 Jan 2018 15:07:00 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 14 Jan 2018 14:29:44 +0800</lastBuildDate>
     
 	<atom:link href="http://www.drifter.fun/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>N卡在Ubuntu如何设置双屏</title>
+      <link>http://www.drifter.fun/post/n%E5%8D%A1%E5%9C%A8ubuntu%E5%A6%82%E4%BD%95%E8%AE%BE%E7%BD%AE%E5%8F%8C%E5%B1%8F/</link>
+      <pubDate>Sun, 14 Jan 2018 14:29:44 +0800</pubDate>
+      
+      <guid>http://www.drifter.fun/post/n%E5%8D%A1%E5%9C%A8ubuntu%E5%A6%82%E4%BD%95%E8%AE%BE%E7%BD%AE%E5%8F%8C%E5%B1%8F/</guid>
+      <description>&amp;emsp;&amp;emsp;当你在运行了Ubuntu并且插上N卡的电脑上想要怼上两个显示器时，你可能需要这篇文章来帮助你设置。在这篇文章的内容之前你要首先安装好N卡在Ubuntu下的专有驱动（这是一个痛苦的过程）。本文推荐的方式是利用xrandr命令的方式。具体步骤如下：
+xrandr //查看现在连接的显示器 xrandr --output HDMI-0 --primary//设置连接HDMI-0的显示器为主显示器 xrandr --output DVI-D-0 --right-of HDMI-0 --auto //设置连接DVI-D-0的显示器在连接HDMI-0的显示器右边  有关xrandr的更多命令可以Google（需科学上网，推荐Lantern）。</description>
+    </item>
     
     <item>
       <title>他只是一个系统啊</title>
