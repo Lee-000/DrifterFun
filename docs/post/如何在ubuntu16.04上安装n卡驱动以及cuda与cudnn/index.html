@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="referrer" content="no-referrer">
+  
+
+  <link rel="icon" type="image/png" href="http://www.drifter.fun/favicon.png">
+
+  <title>
+    
+    
+     Ubuntu16.04的N卡驱动安装 
+    
+  </title>
+  <link rel="canonical" href="http://www.drifter.fun/post/%E5%A6%82%E4%BD%95%E5%9C%A8ubuntu16.04%E4%B8%8A%E5%AE%89%E8%A3%85n%E5%8D%A1%E9%A9%B1%E5%8A%A8%E4%BB%A5%E5%8F%8Acuda%E4%B8%8Ecudnn/">
+
+  <link rel="stylesheet" href="http://www.drifter.fun/css/fonts.css" />
+  <link rel="stylesheet" href="http://www.drifter.fun/css/style.css" />
+
+  
+</head>
+
+<body>
+<section id=nav>
+  <h1><a href="http://www.drifter.fun/">Drifter  Fun</a></h1>
+  </br>
+  <ul>
+    
+    <li><a href="http://www.drifter.fun">首页</a>&nbsp;&nbsp;&nbsp;</li>
+    
+    <li><a href="http://www.drifter.fun/post">博客</a>&nbsp;&nbsp;&nbsp;</li>
+    
+    <li><a href="https://github.com/DrifterFun">Github</a>&nbsp;&nbsp;&nbsp;</li>
+    
+    <li><a href="http://www.drifter.fun">关于</a>&nbsp;&nbsp;&nbsp;</li>
+    
+  </ul>
+  </br>
+  <div style="border:1.5px solid #CCC"></div>  
+</section>
+
+
+
+<section id=content>
+  <h1> Ubuntu16.04的N卡驱动安装 </h1>
+
+  <div id=sub-header>
+     · 2018/01/14 · 
+  </div>
+
+  <div class="entry-content">
+    
+
+<p>&emsp;&emsp;从我的内心上来说，其实不是很想写这篇文章的。讲道理作为一个已经完成一切配置的少年来说，不是应该来一发dota，把写这种文章无限期往后拖么？然而，正直善良的我怎么能够做这种过河拆桥的事呢？我一定会把自己的经验和大家分享的。咳咳……算了，还是讲实话吧：其实是发现了老婆的新剧《胜者即是正义》想看的我想着要不要边看便把文章给写了。</p>
+
+<h3 id="一-显卡驱动安装">一.显卡驱动安装</h3>
+
+<p>&emsp;&emsp;在这里假定读者已经完成了Ubuntu16.04基本系统的安装，没有完成安装的同学可以<a href="https://link.jianshu.com/?t=http://forum.ubuntu.org.cn/viewtopic.php?t=478527">转到这里</a>。在这里我会举例说明其中一种较为简单且广为适用的配置方法，读者可以理解大致流程之后找出千千万万条不同的方法进行配置，我们最终的目标都是安装好驱动即可。</p>
+
+<p><strong>1.进行驱动安装的第一步：确定您的显卡，以及其具体需要的驱动（可以是官方的.run文件版本号也可以是apt-get可以获得的版本号）。</strong></p>
+
+<p>&emsp;&emsp;在这一步中，我选择了具有“超级牛力”的apt-get。于是我去了系统的“软件与更新”一栏查到了我显卡配套的apt-get驱动的版本号nvidia-384。（图中为驱动已经安装好，未安装时选项应该在下面）。
+<img src="http://www.drifter.fun/post/images/Ubuntu1.png" width = "" height = "400" alt="图片名称" align=center/></p>
+
+<p><strong>2.进行驱动安装的第二步：进入命令行模式且禁用X桌面服务</strong></p>
+
+<p>&emsp;&emsp;ubuntu有命令行模式和X桌面模式，显卡的驱动必须在命令行模式进行。键盘上按下<code>ctrl + alt + F1</code>即进入命令行模式。您可能需要输入您的账号和密码才能进入界面。</p>
+
+<p>&emsp;&emsp;禁用X桌面服务，命令行输入：<code>sudo service lightdm stop</code>。输入没有报错接好，不会有动画的。</p>
+
+<p><strong>3.进行驱动安装的第三步：禁用nouveau驱动</strong></p>
+
+<p>&emsp;&emsp;在安装新的驱动之前，需要对开源驱动进行屏蔽。（开源驱动是挺好，但是还是没有亲生父亲写的好呀）屏蔽的方法就是直接拉黑。首先打开黑名单：</p>
+
+<pre><code>sudo vi /etc/modprobe.d/blacklist.conf
+</code></pre>
+
+<p>然后加入一下几条：</p>
+
+<pre><code>blacklist nouveau
+blacklist vga16fb
+blacklist rivafb
+blacklist rivatv
+blacklist nvidiafb
+</code></pre>
+
+<p>(少年是不是不会vim：别怕用手机谷歌下你就知道了。提示：<code>i</code>是插入；<code>：wq</code>是保存退出)</p>
+
+<p>再更新一下内核：</p>
+
+<pre><code>sudo update-initramfs -u
+</code></pre>
+
+<p><strong>4.进行驱动安装的第四步：使用apt-get安装驱动</strong>
+这一步很简单咯，记得要结合第一步的叙述。</p>
+
+<pre><code>sudo add-apt-repository ppa:graphics-drivers/ppa
+sudo apt-get update
+sudo apt-get install nvidia-384
+</code></pre>
+
+<p><strong>4.进行驱动安装的第五步：禁用Secure Boot</strong>
+首先输入<code>sudo reboot</code>重启，进入BIOS里面禁用掉Secure Boot这个Windows的小走狗。我的是华硕Z370-A主板。正好youtube上有<a href="https://www.youtube.com/watch?v=tnOHi0w77bU">视频教程</a>。总之你看看呗，禁用掉就好。</p>
+
+<p>&emsp;&emsp;至此您的显卡驱动就全部安装好啦，开机在“关于本机”中就能够看到你在使用你的显卡了。
+<img src="http://www.drifter.fun/post/images/ubuntu2.png" width = "" height = "400" alt="图片名称" align=center/></p>
+
+<p>好累啊，今天就写到这里吧CUDA&amp;CUDNN留到以后再写？先去把题目改了（原题目：Ubuntu16.04的N卡驱动&amp;CUDA&amp;CUDNN三件套安装）。</p>
+
+  </div>
+
+  <div id=links>
+    
+      <a class="basic-alignment left" href="http://www.drifter.fun/post/n%E5%8D%A1%E5%9C%A8ubuntu%E5%A6%82%E4%BD%95%E8%AE%BE%E7%BD%AE%E5%8F%8C%E5%B1%8F/">&laquo; N卡在Ubuntu如何设置双屏</a>
+    
+    
+  </div>
+</section>
+
+<section id="comments">
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+
+(function() {
+      
+      
+      if (window.location.hostname == "localhost")
+                return;
+
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      var disqus_shortname = '';
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</section>
+
+
+  
+  
+
+
+</body>
+</html>
+
