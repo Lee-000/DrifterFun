@@ -7,7 +7,7 @@ languagecode = "en"
 theme = "hugo-tanka"
 
 googleAnalytics = ""
-disqusShortname = ""
+disqusShortname ="drifterfun"
 disable_mathjax = false
 
 pygmentsstyle      = "vs"
