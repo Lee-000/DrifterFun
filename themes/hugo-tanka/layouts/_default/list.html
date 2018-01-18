@@ -1,6 +1,7 @@
 {{ partial "header_home.html" . }}
 
 <section id=content>
+{{.Content}}
   <ul class=posts_listing>
     {{ range .Data.Pages.ByDate.Reverse }}
       <li>
