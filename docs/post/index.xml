@@ -6,10 +6,21 @@
     <description>Recent content in Posts on Drifter  Fun</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 18 Jan 2018 22:29:51 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 19 Jan 2018 21:48:09 +0800</lastBuildDate>
     
 	<atom:link href="http://www.drifter.fun/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>大家都应该使用Anaconda</title>
+      <link>http://www.drifter.fun/post/%E5%A4%A7%E5%AE%B6%E9%83%BD%E5%BA%94%E8%AF%A5%E4%BD%BF%E7%94%A8anaconda/</link>
+      <pubDate>Fri, 19 Jan 2018 21:48:09 +0800</pubDate>
+      
+      <guid>http://www.drifter.fun/post/%E5%A4%A7%E5%AE%B6%E9%83%BD%E5%BA%94%E8%AF%A5%E4%BD%BF%E7%94%A8anaconda/</guid>
+      <description>&amp;emsp;&amp;emsp;如果你也使用Python语言，朋友，我觉得你应该使用Anaconda。如果你不使用Python语言，朋友，我觉得你应该使用python语言然后用Anaconda。（毕竟人生苦短）
+&amp;emsp;&amp;emsp;第一次接触Anaconda，是看见我兄弟在运行Spyder时依托的平台。经过调研后发现确实是个好东西。conda是一个Python包管理软件，在你Linux的电脑上安装了Anaconda之后，你能够在安装好的目录中新建环境，并且优雅的切换不同的环境运行代码。在这个不同大牛使用不同版本Python并且Python2.x与Python3.x如此不同的今天，作为一个代码抄袭者，你难道不应该使用conda　么？
+&amp;emsp;&amp;emsp;同时使用Anaconda能够保证你不把系统弄得一团糟，然后开启重装模式，总之我觉得全人类都应该使用Anaconda。</description>
+    </item>
     
     <item>
       <title>《心欲呐喊》</title>
