@@ -1,4 +1,5 @@
-baseurl = "/"
+baseurl = "https://drifter.fun"
+publishDir = "docs"
 languageCode = "en-us"
 title = "Drifter Fun"
 theme = "hugo-ivy"

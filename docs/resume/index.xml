@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>简历 on Drifter Fun</title>
-    <link>/resume/</link>
+    <link>https://drifter.fun/resume/</link>
     <description>Recent content in 简历 on Drifter Fun</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 18 Jan 2018 21:56:26 +0800</lastBuildDate>
     
-	<atom:link href="/resume/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://drifter.fun/resume/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
