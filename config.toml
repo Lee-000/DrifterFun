@@ -32,8 +32,7 @@ footnotereturnlinkcontents = "↩"
 
 
 [params]
-    description = "未必要有希望才能开始
-未必要有成功才能坚持"
+    description = "   未必要有希望才能开始未必要有成功才能坚持"
     footer = "&copy; [Drifter Fun](https://drifter.fun) 2018 | [Github](https://github.com/DrifterFun)"
 
   highlightjsVersion = "9.12.0"
