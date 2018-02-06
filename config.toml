@@ -32,7 +32,7 @@ footnotereturnlinkcontents = "↩"
 
 
 [params]
-    description = "————One need not hope in order to undertake, nor succeed in order to persevere."
+    description = "One need not hope in order to undertake, nor succeed in order to persevere."
     footer = "&copy; [Drifter Fun](https://drifter.fun) 2018 | [Github](https://github.com/DrifterFun)"
 
   highlightjsVersion = "9.12.0"
