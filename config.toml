@@ -1,30 +1,24 @@
-baseurl = "http://www.drifter.fun"
-publishDir = "docs"
-title = "Drifter  Fun"
-author = "YiFan Zhu"
-canonifyurls = true
-languagecode = "en"
-theme = "hugo-tanka"
-
+baseurl = "/"
+languageCode = "en-us"
+title = "Drifter Fun"
+theme = "hugo-ivy"
 googleAnalytics = ""
-disqusShortname ="drifterfun"
-disable_mathjax = false
+disqusShortname = "drifterfun"
+ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
+preserveTaxonomyNames = true
+footnotereturnlinkcontents = "↩"
 
-pygmentsstyle      = "vs"
-pygmentscodefences = true
-
-ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
-
-[params]
-  sitename = "Drifter  Fun"
+[permalinks]
+    post = "/post/:year/:month/:day/:slug/"
+    note = "/note/:year/:month/:day/:slug/"
 
 [[menu.main]]
-    name = "首页"
-    url = "http://www.drifter.fun"
+    name = "主页"
+    url = "/"
     weight = 1
 [[menu.main]]
     name = "博客"
-    url = "http://www.drifter.fun/post"
+    url = "/post/"
     weight = 2
 [[menu.main]]
     name = "Github"
@@ -32,6 +26,15 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     weight = 3
 [[menu.main]]
     name = "简历"
-    url = "http://www.drifter.fun/resume"
+    url = "/resume/"
     weight = 4
 
+
+[params]
+    description = "A Hugo theme ported from the static site generator Ivy."
+    footer = "&copy; [Drifter Fun](https://drifter.fun) 2018 | [Github](https://github.com/DrifterFun)"
+
+  highlightjsVersion = "9.12.0"
+  highlightjsCDN = "//cdn.bootcss.com"
+  highlightjsLang = ["r", "yaml", "tex"]
+  highlightjsTheme = "github"
