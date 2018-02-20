@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://drifter.fun/post/2018/02/20/%E5%8F%8D%E6%80%9D%E4%B8%80%E5%8F%91/</loc>
+    <lastmod>2018-02-20T14:00:39+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://drifter.fun/post/2018/02/11/%E8%BF%98%E6%98%AF%E9%82%A3%E4%B8%AA%E9%97%AE%E9%A2%98/</loc>
     <lastmod>2018-02-11T16:33:39+08:00</lastmod>
   </url>
@@ -104,13 +109,13 @@
   
   <url>
     <loc>https://drifter.fun/</loc>
-    <lastmod>2018-02-11T16:33:39+08:00</lastmod>
+    <lastmod>2018-02-20T14:00:39+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://drifter.fun/post/</loc>
-    <lastmod>2018-02-11T16:33:39+08:00</lastmod>
+    <lastmod>2018-02-20T14:00:39+08:00</lastmod>
     <priority>0</priority>
   </url>
   
