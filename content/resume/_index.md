@@ -3,8 +3,8 @@ title: "简历"
 date: 2018-01-18T21:56:26+08:00
 ---
 ### **联系方式:**
-Email：yifanzhu@drifter.fun;
-主页：http://drifter.fun;
+Email：yifanzhu@drifter.fun;\\
+主页：http://drifter.fun;\\
 现居住于上海闵行区
 
 
@@ -14,8 +14,7 @@ Email：yifanzhu@drifter.fun;
 
 ### **教育背景:**
 + 2017~至今：上海交通大学博士在读；<br>
-+ 2013~2017：天津大学电子信息工程学院，工学学士；
-
++ 2013~2017：天津大学电子信息工程学院，工学学士；\\
 (获得"天津大学优秀毕业生"称号)<br>
 
 ### **获得奖励:**
