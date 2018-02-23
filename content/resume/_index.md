@@ -3,7 +3,7 @@ title: "简历"
 date: 2018-01-18T21:56:26+08:00
 ---
 ### **联系方式:**
-Email：yifanzhu@sjtu.edu.cn;
+Email：yifanzhu@drifter.fun;
 主页：http://drifter.fun;
 现居住于上海闵行区
 
