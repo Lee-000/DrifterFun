@@ -6,10 +6,25 @@
     <description>Recent content in Posts on DrifterFun</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 24 Feb 2018 00:13:51 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 27 Feb 2018 13:49:51 +0800</lastBuildDate>
     
 	<atom:link href="https://drifter.fun/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>这种产品一定会大卖</title>
+      <link>https://drifter.fun/post/2018/02/27/%E8%BF%99%E7%A7%8D%E4%BA%A7%E5%93%81%E4%B8%80%E5%AE%9A%E4%BC%9A%E5%A4%A7%E5%8D%96/</link>
+      <pubDate>Tue, 27 Feb 2018 13:49:51 +0800</pubDate>
+      
+      <guid>https://drifter.fun/post/2018/02/27/%E8%BF%99%E7%A7%8D%E4%BA%A7%E5%93%81%E4%B8%80%E5%AE%9A%E4%BC%9A%E5%A4%A7%E5%8D%96/</guid>
+      <description>世界上有三个东西极大地限制了人的创造力，消磨人的时光:“环境配置”、“版本控制”和“排版”。人们已经对应的开发出了很多优秀的产品:“Anaconda”、“Git”和“Latex(Markdown)”为了消除和三个顽疾，虽然说在很大程度上解决了各自领域的问题，但是依旧不能妥善的一揽子解决这三座大山。
+总结了下原因有下面几个：
+ 在操作级别首先就没有实现统一：万恶的Windows；纷繁多彩的Linux；独树一帜的MacOS；
+ 每个系统有纷繁多彩的软件，并且时时刻刻都在更新；
+ 作者没有对环境描述养成习惯；
+  这些纷繁的原因致使了人们很难复现一个人的工作，即使原作者开源了自己的工作。就像是悲哀的我，由于TensorFlow的版本问题，致使我并不能很快的完成手头的一份工作的复现。悲剧的我只能一个一个试版本1.7、1.6、1.5、1.2rc1……
+要是有这样一种产品就好了，能够让开发者在一个环境中完成工作，在Realse代码的同时也能够直接指明运行环境（不需要特地书写，计算机直接生成文件）。这样的产品一定会流行起来并且大卖，至少我会愿意为它买单。</description>
+    </item>
     
     <item>
       <title>幸福方程式</title>
