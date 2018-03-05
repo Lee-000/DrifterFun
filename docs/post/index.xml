@@ -6,10 +6,33 @@
     <description>Recent content in Posts on DrifterFun</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 02 Mar 2018 23:38:39 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 05 Mar 2018 22:49:39 +0800</lastBuildDate>
     
 	<atom:link href="https://drifter.fun/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>如何用中国手机号注册Google账号</title>
+      <link>https://drifter.fun/post/2018/03/05/%E5%A6%82%E4%BD%95%E7%94%A8%E4%B8%AD%E5%9B%BD%E6%89%8B%E6%9C%BA%E5%8F%B7%E6%B3%A8%E5%86%8Cgoogle%E8%B4%A6%E5%8F%B7/</link>
+      <pubDate>Mon, 05 Mar 2018 22:49:39 +0800</pubDate>
+      
+      <guid>https://drifter.fun/post/2018/03/05/%E5%A6%82%E4%BD%95%E7%94%A8%E4%B8%AD%E5%9B%BD%E6%89%8B%E6%9C%BA%E5%8F%B7%E6%B3%A8%E5%86%8Cgoogle%E8%B4%A6%E5%8F%B7/</guid>
+      <description>最近在把我个大邮箱账号统一到yifanzhu@drifter.fun之后心情愉悦了不少。但是还是有一个东西没有得到统一使我相当的不爽，那就是我零散的各类资料。表示不太想把这些资料都放到本地，还是希望能够把它们都放到云端去，在任何地方都能够访问，这样是最理想的。顺理成章的我想到了网盘，对于我来说一个好的网盘需要有以下几个优秀的特性：
+ 数据安全与数据隐私；
+ 稳定的的文件同步系统；
+ 优秀的文件在线团队编辑与分享功能；
+ 长时间的版本控制系统；
+  为了满足这些特点，很多国内的网盘就已经谈出我的视野了。经过调研我把眼光锁定在了这几个产品：DropBox、OneDrive、GooleDrive。本来是已经决定使用DropBox了，但是问题发生在付款的时候，明明是支持银联信用卡付款，但是我的信用卡却不能够使用。没办法只能够转生投入Google大佬的怀抱。
+然而，转型的路走的并不轻松。因为众所周知的原因Google退出了中国市场，就导致正常的注册Goole账号的过程中手机验证那一步+86（中国）的手机是不支持验证的，也就是中国手机不支持验证和注册。万念俱灰下，我甚至考虑了淘宝买账号这条邪路。但辛亏终究还是没有走，因为我翻遍互联网找到了方法注册账号并且可以使用自己的手机号码（中国手机号码）关联账号！
+其实方法说起来也很简单：
+1.在手机上下载网易邮箱大师；
+2.进入手机端的邮箱App，添加邮箱把后缀变为@Gmail.com；
+3.会提示你没有账号，这时候点击注册（sign up）；
+4.进入信息填写页面，如实填写就好。手机号要添加+86（如：+86 130XXXXXX00）
+5.填写完资料之后提交资料之后便不会有手机号验证，账号即申请成功；
+6.登录Goole相关服务，会要求验证手机号码，此时短信便能够发送到大陆的手机号码上。
+PS：看起来Goole的对于大陆手机号的限制也就仅仅体现在注册阶段了，目测应该不会影响之后的使用。</description>
+    </item>
     
     <item>
       <title>从今天开始我是一个有学术道德的人了</title>
