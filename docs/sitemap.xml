@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://drifter.fun/post/2018/03/07/%E6%88%91%E4%BB%AC%E7%9A%84scp/</loc>
+    <lastmod>2018-03-07T23:26:39+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://drifter.fun/post/2018/03/05/%E5%A6%82%E4%BD%95%E7%94%A8%E4%B8%AD%E5%9B%BD%E6%89%8B%E6%9C%BA%E5%8F%B7%E6%B3%A8%E5%86%8Cgoogle%E8%B4%A6%E5%8F%B7/</loc>
     <lastmod>2018-03-05T22:49:39+08:00</lastmod>
   </url>
@@ -134,13 +139,13 @@
   
   <url>
     <loc>https://drifter.fun/</loc>
-    <lastmod>2018-03-05T22:49:39+08:00</lastmod>
+    <lastmod>2018-03-07T23:26:39+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://drifter.fun/post/</loc>
-    <lastmod>2018-03-05T22:49:39+08:00</lastmod>
+    <lastmod>2018-03-07T23:26:39+08:00</lastmod>
     <priority>0</priority>
   </url>
   
