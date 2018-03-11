@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://drifter.fun/post/2018/03/11/dota%E6%98%AF%E4%B8%AA%E4%BF%A1%E4%BB%B0%E6%B8%B8%E6%88%8F/</loc>
+    <lastmod>2018-03-11T19:14:39+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://drifter.fun/post/2018/03/09/%E7%BB%88%E4%BA%8E%E5%87%BA%E6%9D%A5%E7%82%B9%E4%B8%9C%E8%A5%BF/</loc>
     <lastmod>2018-03-09T22:43:39+08:00</lastmod>
   </url>
@@ -149,13 +154,13 @@
   
   <url>
     <loc>https://drifter.fun/</loc>
-    <lastmod>2018-03-09T22:43:39+08:00</lastmod>
+    <lastmod>2018-03-11T19:14:39+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://drifter.fun/post/</loc>
-    <lastmod>2018-03-09T22:43:39+08:00</lastmod>
+    <lastmod>2018-03-11T19:14:39+08:00</lastmod>
     <priority>0</priority>
   </url>
   
