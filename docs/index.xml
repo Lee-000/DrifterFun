@@ -6,10 +6,20 @@
     <description>Recent content on DrifterFun</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 15 Mar 2018 15:38:39 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 15 Mar 2018 15:57:39 +0800</lastBuildDate>
     
 	<atom:link href="https://drifter.fun/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>如何从Github上下载单个文件</title>
+      <link>https://drifter.fun/post/2018/03/15/%E5%A6%82%E4%BD%95%E4%BB%8Egithub%E4%B8%8A%E4%B8%8B%E8%BD%BD%E5%8D%95%E4%B8%AA%E6%96%87%E4%BB%B6/</link>
+      <pubDate>Thu, 15 Mar 2018 15:57:39 +0800</pubDate>
+      
+      <guid>https://drifter.fun/post/2018/03/15/%E5%A6%82%E4%BD%95%E4%BB%8Egithub%E4%B8%8A%E4%B8%8B%E8%BD%BD%E5%8D%95%E4%B8%AA%E6%96%87%E4%BB%B6/</guid>
+      <description>Google这个公司其他都很好，但是托管在Github上的Tensorflow项目太反人类了。他的目录结构有Model和Reaserch，但是问题在于如果你只想下载Reaserch中的一个子文件夹的话使用git clone是不可以的，你必须把所有的文件都一并下载下来。
+所幸我发现了这个网站,能够完成我的需求。朕心甚慰，mark一下。</description>
+    </item>
     
     <item>
       <title>世界真是太小了</title>
