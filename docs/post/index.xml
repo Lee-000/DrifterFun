@@ -6,10 +6,22 @@
     <description>Recent content in Posts on DrifterFun</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 15 Mar 2018 15:57:39 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 17 Mar 2018 13:01:11 +0800</lastBuildDate>
     
 	<atom:link href="https://drifter.fun/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>审稿笔记</title>
+      <link>https://drifter.fun/post/2018/03/17/%E5%AE%A1%E7%A8%BF%E7%AC%94%E8%AE%B0/</link>
+      <pubDate>Sat, 17 Mar 2018 13:01:11 +0800</pubDate>
+      
+      <guid>https://drifter.fun/post/2018/03/17/%E5%AE%A1%E7%A8%BF%E7%AC%94%E8%AE%B0/</guid>
+      <description>之前开会裴老师向我们传授了如何去审稿的方法，一直没有时间整理，也不想整理了，所幸把当时做的笔记写在这里以备以后查看吧。
+  创新性；  title强调的关键词； abstarct：用了什么样的方法，怎么用的达到什么结果，和其他人的比较；初步的结果需要给出； introduction：对问题的认识要比较深。refoerence不够不行，对大家的分析要比较全面，参看文献尽量往新的去用（近三年）； 投什么类型的期刊，找他们发表过的论文，尽量去引用他们的文章; 方法上的描述：讲究你的数学表达; 实验部分（重视）：书写的内容要大，需要实测数据，如果是unreal的可以考虑。比较完整的设计实验。防止他人对于实验的工作量不足的质疑。实验加分项; 实验的分析要从不同的位置去看。从其他角度上去看，尽量考虑多个参数，从不同角度。 横向比较：与他人主流方法的对比。satat of art。 纵向比较：只用LDB；用LBD+XX；用LBD+XX+YY。（图上和表中的展示） conclusion&amp;amp;future job。
+ 写法： 名词尽量一直，形容词可以变。
+   </description>
+    </item>
     
     <item>
       <title>如何从Github上下载单个文件</title>
