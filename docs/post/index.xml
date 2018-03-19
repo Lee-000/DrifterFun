@@ -6,10 +6,20 @@
     <description>Recent content in Posts on DrifterFun</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 18 Mar 2018 12:08:11 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 19 Mar 2018 12:52:11 +0800</lastBuildDate>
     
 	<atom:link href="https://drifter.fun/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>小绿锁</title>
+      <link>https://drifter.fun/post/2018/03/19/%E5%B0%8F%E7%BB%BF%E9%94%81/</link>
+      <pubDate>Mon, 19 Mar 2018 12:52:11 +0800</pubDate>
+      
+      <guid>https://drifter.fun/post/2018/03/19/%E5%B0%8F%E7%BB%BF%E9%94%81/</guid>
+      <description>一直有人向我建议给网站加上https的小绿锁，不然老是会被提醒不安全，就像是在上小黄网一样……我去看了下，貌似是得生成一个证书存在自己的服务器上，然而像我这样无耻占用Github的服务器的穷人，当然是没有办法的了，遂放弃了。
+然而！今天突然去我的网站部署工具netlify上看了看，居然提供了免费htpps服务！而且部署超级简单，于是我得到了一把浏览器地址栏前的小绿锁。从此以后，你的 IC、IP、IQ 卡密码可以在这里加密传输了，虽然也不大可能用得到，但万一哪天哪位客官要给我打赏一个亿呢，梦想总是要有的，万一实现了呢，即使长得丑，也要想得美！</description>
+    </item>
     
     <item>
       <title>每天早上醒来的理由——Ikigai</title>
